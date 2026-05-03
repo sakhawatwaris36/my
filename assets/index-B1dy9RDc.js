@@ -46,7 +46,7 @@ backdrop-blur-xl border border-white/10
 shadow-[0_0_40px_rgba(255,255,255,0.15)] 
 hover:shadow-[0_0_70px_rgba(255,255,255,0.35)] 
 flex items-center justify-center 
-hover:scale-110 transition duration-300`,children:(0,f.jsx)(`img`,{src:`pic.jpg`,alt:``,className:`rounded-full w-80  `})})})]})}function h(){let[e,t]=(0,l.useState)(!1),n=(0,l.useRef)();return(0,l.useEffect)(()=>{let e=new IntersectionObserver(([e])=>{e.isIntersecting&&t(!0)},{threshold:.3});return n.current&&e.observe(n.current),()=>e.disconnect()},[]),(0,f.jsxs)(`section`,{ref:n,className:`w-full py-20 bg-gradient-to-br from-black via-gray-900 to-gray-800 text-white px-6 md:px-16`,children:[(0,f.jsx)(`style`,{children:`
+hover:scale-110 transition duration-300`,children:(0,f.jsx)(`img`,{src:`/my/pic.jpg`,alt:``,className:`rounded-full w-80`})})})]})}function h(){let[e,t]=(0,l.useState)(!1),n=(0,l.useRef)();return(0,l.useEffect)(()=>{let e=new IntersectionObserver(([e])=>{e.isIntersecting&&t(!0)},{threshold:.3});return n.current&&e.observe(n.current),()=>e.disconnect()},[]),(0,f.jsxs)(`section`,{ref:n,className:`w-full py-20 bg-gradient-to-br from-black via-gray-900 to-gray-800 text-white px-6 md:px-16`,children:[(0,f.jsx)(`style`,{children:`
           @keyframes revealUp {
             from {
               opacity: 0;
